@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412064F50CE8B6B900BF9F0B /* HSWPreferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 412064F30CE8B6B900BF9F0B /* HSWPreferences.nib */; };
+		4190A0520CDDFAB600CC1485 /* HSWLabModel-v2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4190A0510CDDFAB600CC1485 /* HSWLabModel-v2.xcdatamodel */; };
+		4190A0940CDDFE1900CC1485 /* HSWLabDocument.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4190A0900CDDFE1900CC1485 /* HSWLabDocument.nib */; };
+		4190A0950CDDFE1900CC1485 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 4190A0920CDDFE1900CC1485 /* MainMenu.nib */; };
+		775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		D4576B041841536A00F97DBC /* HSWCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576AFC1841536A00F97DBC /* HSWCourse.m */; };
+		D4576B051841536A00F97DBC /* HSWLab.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576AFD1841536A00F97DBC /* HSWLab.m */; };
+		D4576B061841536A00F97DBC /* HSWLabDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576AFE1841536A00F97DBC /* HSWLabDocument.m */; };
+		D4576B081841536A00F97DBC /* HSWPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576B001841536A00F97DBC /* HSWPrefsController.m */; };
+		D4576B091841536A00F97DBC /* HSWRubricElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576B011841536A00F97DBC /* HSWRubricElement.m */; };
+		D4576B0A1841536A00F97DBC /* HSWScoringTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576B021841536A00F97DBC /* HSWScoringTable.m */; };
+		D4576B0B1841536A00F97DBC /* HSWStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D4576B031841536A00F97DBC /* HSWStudent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* LabUtilv10_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabUtilv10_Prefix.pch; sourceTree = "<group>"; };
+		412064F40CE8B6B900BF9F0B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/HSWPreferences.nib; sourceTree = "<group>"; };
+		4190A0510CDDFAB600CC1485 /* HSWLabModel-v2.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = "HSWLabModel-v2.xcdatamodel"; sourceTree = "<group>"; };
+		4190A0910CDDFE1900CC1485 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/HSWLabDocument.nib; sourceTree = "<group>"; };
+		4190A0930CDDFE1900CC1485 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		41EF2A170CE3A0AA0005D70D /* Pantomime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pantomime.framework; path = /Library/Frameworks/Pantomime.framework; sourceTree = "<absolute>"; };
+		7788DA0506752A1600599AAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* LabUtilv10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabUtilv10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4576AFA1841523E00F97DBC /* LabUtilv10.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LabUtilv10.entitlements; sourceTree = "<group>"; };
+		D4576AFC1841536A00F97DBC /* HSWCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWCourse.m; sourceTree = "<group>"; };
+		D4576AFD1841536A00F97DBC /* HSWLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWLab.m; sourceTree = "<group>"; };
+		D4576AFE1841536A00F97DBC /* HSWLabDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWLabDocument.m; sourceTree = "<group>"; };
+		D4576B001841536A00F97DBC /* HSWPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWPrefsController.m; sourceTree = "<group>"; };
+		D4576B011841536A00F97DBC /* HSWRubricElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWRubricElement.m; sourceTree = "<group>"; };
+		D4576B021841536A00F97DBC /* HSWScoringTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWScoringTable.m; sourceTree = "<group>"; };
+		D4576B031841536A00F97DBC /* HSWStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSWStudent.m; sourceTree = "<group>"; };
+		D4576B0C1841538000F97DBC /* HSWCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWCourse.h; sourceTree = "<group>"; };
+		D4576B0D1841538000F97DBC /* HSWLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWLab.h; sourceTree = "<group>"; };
+		D4576B0E1841538000F97DBC /* HSWLabDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWLabDocument.h; sourceTree = "<group>"; };
+		D4576B0F1841538000F97DBC /* HSWPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWPrefsController.h; sourceTree = "<group>"; };
+		D4576B101841538000F97DBC /* HSWRubricElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWRubricElement.h; sourceTree = "<group>"; };
+		D4576B111841538000F97DBC /* HSWScoringTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWScoringTable.h; sourceTree = "<group>"; };
+		D4576B121841538000F97DBC /* HSWStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSWStudent.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775DFF38067A968500C5B868 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41EF2A170CE3A0AA0005D70D /* Pantomime.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				7788DA0506752A1600599AAD /* CoreData.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* LabUtilv10.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* LabUtilv10 */ = {
+			isa = PBXGroup;
+			children = (
+				D4576AFA1841523E00F97DBC /* LabUtilv10.entitlements */,
+				E1B74B1A0667B4A90069E3BA /* Models */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				D4576AFB1841533400F97DBC /* Headers */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = LabUtilv10;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4576AFC1841536A00F97DBC /* HSWCourse.m */,
+				D4576AFD1841536A00F97DBC /* HSWLab.m */,
+				D4576AFE1841536A00F97DBC /* HSWLabDocument.m */,
+				D4576B001841536A00F97DBC /* HSWPrefsController.m */,
+				D4576B011841536A00F97DBC /* HSWRubricElement.m */,
+				D4576B021841536A00F97DBC /* HSWScoringTable.m */,
+				D4576B031841536A00F97DBC /* HSWStudent.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* LabUtilv10_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				412064F30CE8B6B900BF9F0B /* HSWPreferences.nib */,
+				4190A0900CDDFE1900CC1485 /* HSWLabDocument.nib */,
+				4190A0920CDDFE1900CC1485 /* MainMenu.nib */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4576AFB1841533400F97DBC /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D4576B0C1841538000F97DBC /* HSWCourse.h */,
+				D4576B0D1841538000F97DBC /* HSWLab.h */,
+				D4576B0E1841538000F97DBC /* HSWLabDocument.h */,
+				D4576B0F1841538000F97DBC /* HSWPrefsController.h */,
+				D4576B101841538000F97DBC /* HSWRubricElement.h */,
+				D4576B111841538000F97DBC /* HSWScoringTable.h */,
+				D4576B121841538000F97DBC /* HSWStudent.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		E1B74B1A0667B4A90069E3BA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4190A0510CDDFAB600CC1485 /* HSWLabModel-v2.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* LabUtilv10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0AA50875C8B900E6366F /* Build configuration list for PBXNativeTarget "LabUtilv10" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabUtilv10;
+			productInstallPath = "$(HOME)/Applications";
+			productName = LabUtilv10;
+			productReference = 8D15AC370486D014006FF6A4 /* LabUtilv10.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					8D15AC270486D014006FF6A4 = {
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 26FC0AA90875C8B900E6366F /* Build configuration list for PBXProject "LabUtilv10" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* LabUtilv10 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* LabUtilv10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				4190A0940CDDFE1900CC1485 /* HSWLabDocument.nib in Resources */,
+				4190A0950CDDFE1900CC1485 /* MainMenu.nib in Resources */,
+				412064F50CE8B6B900BF9F0B /* HSWPreferences.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4576B091841536A00F97DBC /* HSWRubricElement.m in Sources */,
+				D4576B051841536A00F97DBC /* HSWLab.m in Sources */,
+				D4576B061841536A00F97DBC /* HSWLabDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				D4576B0A1841536A00F97DBC /* HSWScoringTable.m in Sources */,
+				D4576B041841536A00F97DBC /* HSWCourse.m in Sources */,
+				D4576B0B1841536A00F97DBC /* HSWStudent.m in Sources */,
+				4190A0520CDDFAB600CC1485 /* HSWLabModel-v2.xcdatamodel in Sources */,
+				D4576B081841536A00F97DBC /* HSWPrefsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		412064F30CE8B6B900BF9F0B /* HSWPreferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412064F40CE8B6B900BF9F0B /* English */,
+			);
+			name = HSWPreferences.nib;
+			sourceTree = "<group>";
+		};
+		4190A0900CDDFE1900CC1485 /* HSWLabDocument.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4190A0910CDDFE1900CC1485 /* English */,
+			);
+			name = HSWLabDocument.nib;
+			sourceTree = "<group>";
+		};
+		4190A0920CDDFE1900CC1485 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4190A0930CDDFE1900CC1485 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0AA60875C8B900E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LabUtilv10.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LabUtilv10_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = LabUtilv10;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		26FC0AA70875C8B900E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LabUtilv10.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LabUtilv10_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = LabUtilv10;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0AAA0875C8B900E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		26FC0AAB0875C8B900E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0AA50875C8B900E6366F /* Build configuration list for PBXNativeTarget "LabUtilv10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0AA60875C8B900E6366F /* Debug */,
+				26FC0AA70875C8B900E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0AA90875C8B900E6366F /* Build configuration list for PBXProject "LabUtilv10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0AAA0875C8B900E6366F /* Debug */,
+				26FC0AAB0875C8B900E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

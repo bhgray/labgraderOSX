@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addRequiredFile = id; 
+                chooseStudentRootDir = id; 
+                selectTestClass = id; 
+                setAsStudentRoot = id; 
+            }; 
+            CLASS = HSWLabDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                gradingElementsTableView = NSTableView; 
+                labController = NSObjectController; 
+                rootDirField = NSTextField; 
+                studentDirsView = HSWOutlineView; 
+                testClassField = NSTextField; 
+            }; 
+            SUPERCLASS = NSPersistentDocument; 
+        }, 
+        {CLASS = HSWOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = NSDatePicker; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSPersistentDocument; LANGUAGE = ObjC; SUPERCLASS = NSDocument; }
+    ); 
+    IBVersion = 1; 
+}
