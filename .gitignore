@@ -11,4 +11,4 @@ Thumbs.db
 .Trashes
 
 # build files
-/build/
+build/
